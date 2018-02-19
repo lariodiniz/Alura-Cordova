@@ -6,12 +6,20 @@
     </description>
     <author email="lariodiniz@gmail.com" href="http://lariodiniz.esy.es/">
         Lário Diniz
-    </author>   
-	<preference name="Orientation" value="portrait" />
-	<preference name="Fullscreen" value="true" />
-	<preference name="DisallowOverscroll" value="true" />
-	<preference name="BackgroundColor" value="0xF2F2F2FF" />
+    </author>
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xF2F2F2FF" />
+    <platform name="ios">
+        <preference name="DisallowOverscroll" value="true" />
+    </platform>
+    <plugin name="cordova-plugin-statusbar" spec="*" />
+	
+	<preference name="StatusBarBackgroundColor" value="#E86C13" />
+	
 	<platform name="ios">
-		<preference name="DisallowOverscroll" value="true" />
+		<preference name="StatusBarOverlaysWebView" value="false" />
+		<preference name="StatusBarBackgroundColor" value="#F57F17" />
 	</platform>
 </widget>

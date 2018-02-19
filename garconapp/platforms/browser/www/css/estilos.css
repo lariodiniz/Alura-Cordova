@@ -1,15 +1,21 @@
-.tabs .indicator {
-    background-color: white;
-}
+/* estilo inicial */
 body {
-    background-color: #f2f2f2
+    background-color: #F2F2F2;
 }
+
+/* estilo do titulo */
 .titulo {
     font-size: 1.3rem;
     margin-left: 5%;
     margin-right: auto;
 }
 
+/* cor da aba */
+.tabs .indicator {
+    background-color: white;
+}
+
+/* fixo no topo */
 .topo-fixo {
     position: fixed;
     top: 0;
