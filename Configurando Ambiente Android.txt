@@ -1,0 +1,9 @@
+1 - Instale o JAva JDK:
+	http://www.oracle.com/technetwork/pt/java/javase/downloads/index.html
+
+2 - Instale o SDK Tools Only:
+	https://developer.android.com/studio/index.html
+
+3 - Instale o Genymotion:
+	https://www.genymotion.com/
+	

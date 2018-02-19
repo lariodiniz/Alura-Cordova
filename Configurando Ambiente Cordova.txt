@@ -1,0 +1,5 @@
+1 - Instale o Node.js : 
+	https://nodejs.org/en/
+2 - Abra o terminal (em modo de administrador) e instale o cordova:
+	npm install cordova
+

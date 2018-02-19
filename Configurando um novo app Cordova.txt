@@ -1,0 +1,22 @@
+1 - Abra o terminal (em modo de administrador) e crie o app:
+	cordova create [NOMEDOAPP] [IDDOPROJETO] [TITULO]
+
+	EX:
+	cordova create meuapp org.lario.meuapp "Meu Aplicativo"
+
+2 - Entre na pasta criada
+	cd [NOMEDOAPP]/
+
+3 - adicione as plataformas que você irá trabalhar:
+	Android:
+	cordova platform add android
+	IOS:
+	cordova platform ios
+	BROWSER:
+	cordova platform add browser
+
+4 - rode a aplicação
+	cordova run [PLATAFORMA]
+
+	Ex:
+	cordova run browser

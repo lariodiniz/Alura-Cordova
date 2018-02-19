@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Garçonete Só de Cenoura",
+  "short_name": "Garçonete Só de Cenoura",
+  "version": "org.lariodiniz.garconapp",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Lário Diniz",
+  "icons": [],
+  "start_url": "index.html"
+}
