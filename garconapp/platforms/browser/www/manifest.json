@@ -4,8 +4,9 @@
   "name": "Garçonete Só de Cenoura",
   "short_name": "Garçonete Só de Cenoura",
   "version": "org.lariodiniz.garconapp",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "App para uso ddas garçonetes dentro do restaurante.",
   "author": "Lário Diniz",
   "icons": [],
+  "orientation": "portrait",
   "start_url": "index.html"
 }

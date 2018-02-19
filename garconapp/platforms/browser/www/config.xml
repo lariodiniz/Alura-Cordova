@@ -2,17 +2,13 @@
 <widget id="org.lariodiniz.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Garçonete Só de Cenoura</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        App para uso ddas garçonetes dentro do restaurante.
     </description>
     <author email="lariodiniz@gmail.com" href="http://lariodiniz.esy.es/">
         Lário Diniz
     </author>
-    <content src="index.html" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xF2F2F2FF" />
 </widget>
