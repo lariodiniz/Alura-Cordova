@@ -7,6 +7,7 @@
     <author email="lariodiniz@gmail.com" href="http://lariodiniz.esy.es/">
         Lário Diniz
     </author>
+    <access origin="http://cozinhapp.sergiolopes.org" />
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
     <preference name="DisallowOverscroll" value="true" />
@@ -15,11 +16,13 @@
         <preference name="DisallowOverscroll" value="true" />
     </platform>
     <plugin name="cordova-plugin-statusbar" spec="*" />
-	
 	<preference name="StatusBarBackgroundColor" value="#E86C13" />
-	
-	<platform name="ios">
-		<preference name="StatusBarOverlaysWebView" value="false" />
-		<preference name="StatusBarBackgroundColor" value="#F57F17" />
-	</platform>
+    <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    <platform name="ios">
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#F57F17" />
+    </platform>
+    <plugin name="phonegap-plugin-barcodescanner" spec="*" />
+    <engine name="browser" spec="^5.0.3" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
